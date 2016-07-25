@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+    <html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/sample.css" type="text/css" />
+    <title>Sample HTML Page (サンプルページ)</title>
+</head>
+
+<body>
+    <div id="memo">
+        <h2>Sample</h2>
+        <p>Memos</p>
+        <table class="sample_table">
+            <tbody id="memos">
+                <tr>
+                    <th>ID</th>
+                    <th>Test</th>
+                </tr>
+            </tbody>
+        </table>
+        <p>New Memo</p>
+        <textarea id="new_memo" cols="50" rows="5"></textarea>
+        <br />
+        <button id="submit">Add</button>
+    </div>
+    <script src="https://rawgit.com/freddiefujiwara/nikotama/master/dist/nikotama.bundle.js"></script>
+    <script src="../js/sample_api_db.js"></script>
+</body>
+
+</html>
