@@ -20,7 +20,7 @@ class DB {
     private $mysqli;
     
     public function __construct() {
-        $this->mysqli = new mysqli('localhost', getenv('C9_USER'), '', 'memo');
+        $this->mysqli = new mysqli('localhost', getenv('C9_USER'), '', 'summer');
         $this->mysqli->set_charset('utf-8');
     }
     

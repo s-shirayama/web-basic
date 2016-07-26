@@ -1,0 +1,18 @@
+--- /etc/mysql/my.cnf	2014-02-19 21:18:21.000000000 +0000
++++ my.cnf	2016-07-26 02:33:31.178259344 +0000
+@@ -17,6 +17,7 @@
+ # escpecially if they contain "#" chars...
+ # Remember to edit /etc/mysql/debian.cnf when changing the socket location.
+ [client]
++default-character-set = utf8
+ port		= 3306
+ socket		= /var/run/mysqld/mysqld.sock
+ 
+@@ -29,6 +30,7 @@
+ nice		= 0
+ 
+ [mysqld]
++character-set-server = utf8
+ #
+ # * Basic Settings
+ #

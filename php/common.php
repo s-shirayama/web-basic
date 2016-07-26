@@ -1,6 +1,7 @@
 <?php
 
 include_once('lib.php');
+date_default_timezone_set('Asia/Tokyo');
 
 // Set Exception
 function exception_handler($exception) {
